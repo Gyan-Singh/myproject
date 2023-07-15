@@ -3,3 +3,7 @@ django-crispy-forms
 crispy-bootstrap4
 dj-database-url
 python-decouple
+psycopg2-binary
+asgiref
+pytz
+sqlparse
