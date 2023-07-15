@@ -85,7 +85,7 @@ DATABASES = {
         'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
-
+DATABASE_URL="postgresql://postgres:QiC1kUhBP6uFZwySA8R8@containers-us-west-36.railway.app:6453/railway"
 
 DATABASES['default'] = dj_database_url.config()
 
