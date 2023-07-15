@@ -1,5 +1,5 @@
 Django
 django-crispy-forms
 crispy-bootstrap4
-pysqlite3
-pysqlite3-binary
+dj-database-url
+python-decouple
