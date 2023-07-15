@@ -1,0 +1,8 @@
+<<<<<<< HEAD
+Django==3.2.15
+django-crispy-forms
+=======
+Django==3.2.15
+django-crispy-forms
+>>>>>>> 3becf46069e9bc6a7a0ca51837f20f47f91adef5
+crispy-bootstrap4

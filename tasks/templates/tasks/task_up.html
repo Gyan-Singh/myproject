@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Edit Driver </title>
+</head>
+<body>
+<h3>Edit Driver </h3>
+    <form action="/save/" method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        {{ form.as_p }}
+
+        <input type="hidden" name ="taskk" value="{{object.id}}">
+
+
+
+        <p><input type="submit" class="btn btn-success" value="Submit"></p>
+    </form>
+</body>
+</html>
