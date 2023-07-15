@@ -1,3 +1,5 @@
 Django
 django-crispy-forms
 crispy-bootstrap4
+pysqlite3
+pysqlite3-binary
